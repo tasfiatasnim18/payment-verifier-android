@@ -1,0 +1,40 @@
+# Android Studio / IntelliJ
+*.iml
+.idea/
+.kotlin/
+
+# Gradle
+.gradle/
+**/build/
+
+# Local configuration
+/local.properties
+
+# Native build output
+.externalNativeBuild/
+.cxx/
+
+# Generated files
+captures/
+.DS_Store
+
+# Signing keys
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.key
+*-key.pem
+*-private.pem
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Local development certificate
+192.168.31.121+3.pem
+app/src/main/res/raw/local_ca.crt
